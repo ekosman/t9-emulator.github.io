@@ -6,7 +6,7 @@
 
     $(function(){
         $.ajax({
-            url: 'data/dictionary.txt',
+            url: 'C:/Users/eitan/Cloned_repos/t9-emulator/data/dictionary.txt',
             success: function(data, textStatus, jqXHR ) {
                 $('.loading p').text('Dictionary file downloaded!');
                 _.delay(function(){
